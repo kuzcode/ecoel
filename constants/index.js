@@ -1,3 +1,3 @@
-export const sidebarLinks=[{imgURL:"/assets/home.svg",route:"/",label:"Главная",},{imgURL:"/assets/search.svg",route:"/search",label:"Поиск",},{imgURL:"/assets/basket.svg",route:"/delivery",label:"Еда"},{imgURL:"/assets/create.svg",route:"/create-thread",label:"Запись",},{imgURL:"/assets/user.svg",route:"/profile",label:"Профиль",},];
+export const sidebarLinks=[{imgURL:"/assets/home.svg",route:"/home",label:"Главная",},{imgURL:"/assets/search.svg",route:"/search",label:"Поиск",},{imgURL:"/assets/basket.svg",route:"/delivery",label:"Еда"},{imgURL:"/assets/create.svg",route:"/create-thread",label:"Запись",},{imgURL:"/assets/user.svg",route:"/profile",label:"Профиль",},];
 export const profileTabs=[
 {value:"threads",label:"Записи",icon:"/assets/reply.svg"},{value:"replies",label:"Ответы",icon:"/assets/members.svg"},{value:"tagged",label:"Отметки",icon:"/assets/tag.svg"},];
