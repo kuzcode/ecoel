@@ -9,7 +9,7 @@ if(hasImageChanged){const imgRes=await startUpload(files);
 if(imgRes&&imgRes[0].fileUrl){
 values.profile_photo=imgRes[0].fileUrl}}
 await updateUser({name:values.name,path:pathname,username:values.username,userId:user.id,bio:values.bio,image:values.profile_photo,verif:user.verif});
-if(pathname===`/${user.username}/edit`){router.back()}else{router.push("/")}};
+if(pathname===`/${user.username}/edit`){router.back()}else{router.push("/home")}};
 const handleImage=(
 e:ChangeEvent<HTMLInputElement>,
 fieldChange:(value:string)=>void)=>{e.preventDefault();const fileReader=new FileReader();

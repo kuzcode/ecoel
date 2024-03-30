@@ -9,7 +9,7 @@ var confirmDel=confirm('Вы действительно хотите удали�
 if(confirmDel==true){
 deleteThread(JSON.parse(threadId),pathname);
 alert('Запись удалена:)')
-if(!parentId||!isComment){router.push("/")}}
+if(!parentId||!isComment){router.push("/home")}}
 else{(confirmDel=false)}}
 return(
 <Image src='/assets/delete.svg'alt='delte' width={20}height={20}className='cursor-pointer object-contain' onClick={()=> startDeliting()}/>);}

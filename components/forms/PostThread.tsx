@@ -7,7 +7,7 @@ await createThread({
 text:values.thread,author:userId,path:pathname,likes:[],isAnonym:false,});}else{
 await createThread({
 text:values.thread,author:userId,path:pathname,likes:[],isAnonym:true,});}alert('Запись опубликована и видна всем :)')
-router.push("/")};return(<Form {...form}><form
+router.push("/home")};return(<Form {...form}><form
 className='mt-10 flex flex-col justify-start gap-10'
 onSubmit={form.handleSubmit(onSubmit)}><FormField
 control={form.control}name='thread'render={({field}) =>(
